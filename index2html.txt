@@ -1,0 +1,321 @@
+<html>
+	<head>
+		<title>project1</title>
+		<style type="text/css">
+		body{
+			/*background-color:green;
+			background-image:url('');
+			background-repeat:no-repeat;
+			background-position:right:top;*/
+			background:transparent url('') no-repeat top right fixed;
+			margin:0px;
+			}
+			#mainarea{
+				 width:1350px;
+				height:100%;
+				background:blue;
+				}
+				#toparea{
+					width:1350px;
+					height:40px;
+					background:#49688E;
+					float:left;
+					}
+					#toparea ul{
+						list-stype-type:none;
+
+
+						}
+					#toparea ul li a:link,#toparea ul li a:visited{
+					 	color:white;
+						text-decoration:none;
+						background:green;
+						display:block;
+						text-align:center;
+						border-right:solid 1px yellow;
+						padding-top:-20px;
+						padding-right:100px;
+						float:left;
+					
+						}
+					#toparea ul li a:hover{
+						color:red;
+						background:#F4A024;
+						display:block;
+						text-align:center;
+						}
+					#toparea ul li:last-child a:link,  #toparea ul li:last-child a:visited{
+						border:none;
+
+						}
+					#toparea{
+						margin:0px;
+						list-style:none;
+					
+						}
+					#toparea ul li{
+						float:left;
+						}
+					
+					
+					
+				#menuarea{
+					width:1350px;
+					height:200px;
+					background:white;
+					float:left;
+					}
+					#logoarea{
+						width:200px;
+						height:200px;
+						background:red;
+						float:left;
+						}
+						  #menuarea img{
+							margin:20px 10px 0px 10px;
+							}
+					#titlearea{
+						width:1150px;
+						height:200px;
+						background:red;
+						float:left;
+						}
+				#slidearea{
+					width:1350px;
+					height:50px;
+					background:#49688E;
+					float:left;
+					padding-top:1px;
+					}
+					#slidearea ul{
+						margin:0;
+						list-style:none;
+						padding:0;
+						}
+						#slidearea ul li{
+								float:left;
+								}
+					#slidearea ul li a:link,#slidearea ul li a:visited{
+					 						color:white;
+											text-decoration:none;
+											background:green;
+											display:block;
+											text-align:center;
+											border-right:solid 1px yellow;
+											padding:15px 25px 15px 25px;
+											float:left;
+											margin-top:0px;
+											
+											
+											}
+						#slidearea ul li a:hover{
+									color:red;
+									background:#F4A024;
+									display:block;
+									text-align:center;
+									}
+					#slidearea ul li:last-child a:link,  #slidearea ul li:last-child a:visited{
+														border:none;
+														}
+					#slidearea ul li ul{
+							display:none;
+							margin-top:50px;
+								}
+					#slidearea ul li:hover ul{
+								display:block;
+								position:absolute;
+								z-index:1000;
+								}
+					#slidearea ul li:hover ul li{
+									float:none;
+									}
+					#slidearea ul li:hover ul a:link, #slidearea ul li a:visited{
+												border:none;
+												border-bottom:solid  1px red;
+												}
+					#slidearea ul li a:hover ul a:hover{
+									color:white;
+									background:#1877F2;
+									}
+					
+				#darea{
+					width:1350px;
+					height:50px;
+					background:#F4F4F4;
+					float:left;
+
+					}
+				#boxarea{
+					width:1350px;
+					height:500px;
+					background:white;
+					float:left;
+					background-image:url('l.jpg');
+					}
+				#noticearea{
+					width:1350px;
+					height:555px;
+					background:white;
+					float:left;
+					}
+					.n1{
+						width:440px;
+						height:555px;
+						background:red;
+						margin-left:7px;
+						float:left;
+						}
+					.n1 p{
+						font-size:20px;
+						font-style:none;
+					}
+				#maparea{
+					width:1350px;
+					height:350px;
+					background:white;
+					float:left;
+					}
+				#footerarea{
+					   width:1350px;
+					   height:95px;
+					   background:#15305B;
+					   float:left;
+					   }
+				#footerarea p{
+						text-align:center;
+						font-weight:bold;
+						color:white;
+						font-style:italic;
+						text-transform:uppercase;
+						text-indent:50px;
+						line-spacing:100px;
+					}
+			
+
+			
+
+		</style>
+	</head>
+	<body>
+		<div id="mainarea">
+			<div id="toparea">
+				<ul type="none">
+					<li><a href="tel:9608117681">CALL US</a></li>
+					<li><a href="mailo:lalgupta2005@gmail.com?subject=resume&&cc=guptaakshaylalkumar@gmail.com">EMAIL US</a></li>
+					<li><a href="#">ONLINE ADDMISSION</a></li>
+					
+				</ul>
+			</div>
+			<div id="menuarea">
+				<div id="logoarea">
+					<img src="logo.jpg">
+				</div>
+				<div id="titlearea">
+					<h1>Saraswati Shishu Vidya Mandir<br>
+					सरस्वती शिशु विद्या मन्दिर</h1>
+					Senior Secondary (+2) School (Affiliated to C.B.S.E. Delhi)
+					Dhurwa, Ranchi, Jharkhand
+					<p><marquee>hello</marquee>
+					
+				</div>
+				
+			</div>
+			<div id="slidearea">
+				<ul type="none">
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">TEAMS</a>
+						<ul>
+							<li><a href="#">management</a></li>
+							<li><a href="#">faculty-primary</a></li>
+							<li><a href="#">faculty-secondary</a></li>
+							<li><a href="#">faculty-sr.secondary</a></li>
+							<li><a href="#">non teching staff</a></li>
+						</ul>
+					</li>
+					<li><a href="#">INFRASTRUCTURE</a>
+						<ul>
+							<li><a href="#">school</a></li>
+							<li><a href="#">hostel</a></li>
+							<li><a href="#">infrastructure detail</a></li>
+							
+							
+						</ul>
+					</li>
+					<li><a href="#">ADMISSION</a>
+						
+					</li>
+					<li><a href="#">ACADEMIC</a>
+						<ul>
+							<li><a href="#">result</a></li>
+							<li><a href="#">tc departement</a></li>
+							<li><a href="#">curricululum</a></li>
+							<li><a href="#">activities</a></li>
+							<li><a href="#">schools uniform</a></li>
+							<li><a href="#">examinination</a></li>
+							<li><a href="#">Free structure</a></li>
+						</ul>
+					</li>
+					<li><a href="#">STUDENT,S</a>
+						<ul>
+							<li><a href="#">alumni</a></li>
+							<li><a href="#">syllabus</a></li>
+							
+						</ul>
+					</li>
+					<li><a href="#">GALLERY</a>
+						<ul>
+							<li><a href="#">event</a></li>
+							<li><a href="#">media</a></li>
+							
+						</ul>
+					</li>
+					<li><a href="#">ABOUT US</a>
+						<ul>
+							<li><a href="#">message from security desk</a></li>
+							<li><a href="#">principal desk</a></li>
+							<li><a href="#">about school</a></li>
+							<li><a href="#">mandatory dislosure</a></li>
+						</ul>
+					</li>
+					<li><a href="#">CONTACT US</a></li>
+
+				</ul>
+			</div>
+			<div id="darea">
+				<marquee>welcome for visite my website</marquee>
+			</div>
+			<div id="boxarea">
+
+			</div>
+			<div id="noticearea">
+				<div class="n1">
+					<p>useful link</p><ul>
+
+				</div>
+				<div class="n1">
+					<h2>Welcome to sarswati Shishu vidya Mandir Banshidhar,nagar,untari,jharkhand<h2> 
+					<p>SARASWATI SHISHU VIDYA MANDIR is a co-educational English medium school affiliated to Central Board of Secondary Education, 						Delhi and is situated at Dhurwa of Heavy Engineering Corporation (HEC) township, Ranchi, serene and beautiful 							surrounding. The school aims at giving a qualitative high standard of education which would develop the 						students innate potential to the fullest. It is managed by Shishu Vikas Mandir Samiti (Jharkhand), Dhurwa, Ranchi, A 						registered body under the India Societies Registration Act of 1860 with eminent educationists and philanthropistsk</p>
+
+				</div>
+				<div class="n1">
+					<h1>ACADEMIC CELENDER</h1>
+					<img src="download.png" width="100%" height="100%">
+				</div>
+			</div>
+			<div id="maparea">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.730947341096!2d85.80829131427329!3d22.551749339420503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1e277709421165%3A0xccc10c2127571a9a!2z4LCq4LCm4LGN4LCu4LC-4LC14LCk4LC_IOCwnOCxiOCwqOCxjSDgsLjgsLDgsLjgsLXgsKTgsYAg4LC24LC_4LC34LGBIOCwteCwv-CwpuCxjeCwr-CwviDgsK7gsILgsKbgsL_gsLDgsY0!5e0!3m2!1ste!2sin!4v1663338380974!5m2!1ste!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+			<div id="footerarea">
+				Hom
+ 
+					About Us
+ 
+					Contact Us
+						<p>Copyright © 2017-2022 - Saraswati Shishu Vidya Mandir. All Right Reserved.</p>
+						<p>Site design and developed by Advance Computer System</p>
+			</div>
+		</div>
+	
+
+	</body>
+</html>
